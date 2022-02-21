@@ -1,0 +1,56 @@
+the must famous sorting algorithms
+
+1. bubble sort
+    time complexity in both best and wort case is O(n^2).
+
+    This sorting algorithm is comparison-based algorithm in which
+    each pair of adjacent elements is compared and the elements 
+    are swapped if they are not in order. This algorithm 
+    is not suitable for large data because of its runtime.
+
+2. insertion sort
+    time complexity in both best and wort case is O(n^2).
+
+    This is an in-place comparison-based sorting algorithm.
+    Here, a sub-list is maintained which is always sorted. 
+    For example, the lower part of an array is maintained 
+    to be sorted. An element which is to be 'insert'ed in 
+    this sorted sub-list, has to find its appropriate place and 
+    then it has to be inserted there. This algorithm 
+    is not suitable for large data because of its runtime.
+
+3. selection sort 
+    time complexity in both best and wort case is O(n^2).
+  
+    Selection sort is a simple sorting algorithm. 
+    This sorting algorithm is an in-place comparison-based 
+    algorithm in which the list is divided into two parts, the 
+    sorted part at the left end and the unsorted part at the 
+    right end. Initially, the sorted part is empty and the 
+    unsorted part is the entire list.
+    The smallest element is selected from the unsorted array 
+    and swapped with the leftmost element, and that element 
+    becomes a part of the sorted array. This process continues 
+    moving unsorted array boundary by one element to the right.
+    This algorithm is not suitable for large data because of its runtime.
+
+4. Merge sort
+    time complexity in both best and wort case is O(n logn).
+
+    Merge sort is a sorting technique based on divide and conquer technique.
+    Merge sort first divides the array into equal halves and then combines them in a sorted manner.
+
+5. Quick Sort 
+    time complexity in both best and wort case is O(n logn).
+
+    Quick sort is a highly efficient sorting algorithm and is based on partitioning 
+    of array of data into smaller arrays. A large array is partitioned into two arrays 
+    one of which holds values smaller than the specified value, say pivot, based on 
+    which the partition is made and another array holds values greater than the pivot value.
+
+6. Heap sort
+    time complexity in both best and wort case is O(n logn).
+    Heap sort is a comparison-based sorting technique based on Binary Heap data structure. 
+    It is similar to selection sort where we first find the minimum element and place 
+    the minimum element at the beginning. We repeat the same process for the remaining 
+    elements.
